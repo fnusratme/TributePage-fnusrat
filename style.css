@@ -1,0 +1,114 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: roboto condensed, sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+
+  #main {
+    margin: 0;
+  }
+
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+h2 {
+  font-size: 3.25rem;
+}
+
+h4 {font-size: 1rem;
+    
+}
+
+a {
+  color: blue;
+}
+a:visited {
+  color: #cc3300;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #fff2e6;
+}
+
+img {
+  max-width: 50%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: #e6fffa;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px;
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  list-style-type: circle;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  background: white;
+}
+
+#myBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: solid grey; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #cc3300; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 13px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
